@@ -1,0 +1,7 @@
+class Run
+{
+	public void test()
+	{
+		System.out.println("Abstraction");
+	}
+}

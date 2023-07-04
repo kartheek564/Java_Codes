@@ -1,0 +1,15 @@
+class SpecialChar 
+{
+	public static void main(String[] args) 
+	{
+		char c='8';
+		if((c>='a'&&c<='z')||(c>='A'&&c<='Z')||(c>='0'&&c<='9'))
+		{
+			System.out.println(c+" is not a special Character");
+		}
+		else
+		{
+			System.out.println(c+" is a special Character--The last digit of Ascii value is "+c%10);
+		}
+	}
+}

@@ -1,0 +1,14 @@
+class Circle 
+{
+	public int radius;
+	public static double pi= 3.14;
+	public Circle(int a)
+	{
+		radius=a;
+	}
+	public void findArea()
+	{
+		double area =pi*radius*radius; 
+		System.out.println("Area of circle is : "+area);
+	}
+}

@@ -1,0 +1,13 @@
+class  Gun
+{
+	public int bullets;
+	public Gun(int bullets)
+	{
+		this.bullets = bullets ;
+	}
+	public void shoot()
+	{
+		System.out.println("Shoot "+bullets+" bullets");
+	}
+	
+}

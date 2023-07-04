@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class PrimeNumMN 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter m value : ");
+		int m=sc.nextInt();
+		System.out.print("Enter n value : ");
+		int n=sc.nextInt();
+		//int i,j;
+		for (int i=m;i<n ;i++ )
+		{
+			for (int j=2 ;j<=i ;j++ )
+			{
+				if (i%j==0)
+				{
+					break;
+				}
+			}
+		if(i==j)
+			{
+				System.out.println(j);
+			}
+		}
+	}
+}

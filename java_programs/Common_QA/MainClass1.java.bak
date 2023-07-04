@@ -1,0 +1,23 @@
+abstract class A
+{
+	abstract public void test();
+} 
+abstract class B
+{
+	abstract public void test();
+} 
+class C extends A,B
+{
+	public void test()
+	{
+		System.out.println("Hello World!");
+	}
+}
+class MainClass1
+{
+	public static void main(String[] args) 
+	{
+		new.A();
+		System.out.println("Hello World!");
+	}
+}

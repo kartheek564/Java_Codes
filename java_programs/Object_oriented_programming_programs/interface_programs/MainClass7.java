@@ -1,0 +1,31 @@
+abstract class A
+{
+	abstract public void run();
+}
+interface B
+{
+	public void walk();
+}
+class C extends A implements B
+{
+	public void run()
+	{
+		System.out.println("Running");
+	}
+	public void walk()
+	{
+		System.out.println("Walking");
+	}
+
+}
+class Mainclass7
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Main Starts");
+		C c1= new C();
+		c1.run();
+		c1.walk();
+		System.out.println("Main Ends");
+	}
+}

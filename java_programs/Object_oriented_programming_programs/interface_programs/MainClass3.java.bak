@@ -1,0 +1,19 @@
+interface A
+{
+	public void read(); 
+}
+interface B extends A
+{
+	public void write(); 
+}
+interface C extends A
+{\
+
+}
+class MainClass3 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

@@ -1,0 +1,26 @@
+abstract class Car
+{
+	abstract public void start();
+}
+class Benz extends Car
+{
+	public void start()
+	{
+		System.out.println("Benz Starts");
+	}
+}
+class Ferrari extends Car
+{
+	public void start()
+	{
+		System.out.println("Ferrari Starts");
+	}
+}
+class MainClass3
+{
+	public static void main(String[] args) 
+	{
+		new Benz().start();
+		new Ferrari().start();
+	}
+}

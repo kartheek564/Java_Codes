@@ -1,0 +1,8 @@
+class MainClass
+{
+	public static void main(String[] args) 
+	{
+		Demo rv = sample.getObject();
+		rv.test();
+	}
+}

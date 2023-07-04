@@ -1,0 +1,17 @@
+class MyClass 
+{
+	MyClass()
+	{
+		System.opt.println("One");
+	}
+	public void myMethod()
+	{
+		this();
+		System.opt.println("Two");
+	}
+	public static void main(String[] args) 
+	{
+		MyClass obj = new MyClass();
+		obj.myMethod();
+	}
+}

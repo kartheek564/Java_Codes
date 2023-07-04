@@ -1,0 +1,9 @@
+class Largest 
+{
+	public static void main(String[] args) 
+	{
+		int a=100;
+		int b=500;
+		System.out.println(a>b ? "The largest of two numbers is "+a : "The largest of two numbers is "+b);
+	}
+}

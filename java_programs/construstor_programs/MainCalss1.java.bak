@@ -1,0 +1,12 @@
+class MainCalss1
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Main Starts");
+		Car c1 = new Car("Desire",100,2,"Hyderabad","Banglore");
+		Car c2 = new Car("Desire A1",80,3,"Hyderabad","Chennai");
+		c1.calculateDistance();
+		c2.calculateDistance();
+		System.out.println("Main Ends");
+	}
+}

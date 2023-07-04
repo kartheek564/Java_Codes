@@ -1,0 +1,20 @@
+class Circle1 
+{
+	public double findRadius(double diameter)
+	{
+		double radius = diameter/2;
+		return radius;
+	}
+	public static double areaCircle(double radius)
+	{
+		double area = 3.14*radius*radius;
+		System.out.println("Area of circle is "+area);
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Main Starts..");
+		Circle1 ac= new Circle1();
+		ac.findRadius(12);
+		areaCircle(12);
+	}
+}

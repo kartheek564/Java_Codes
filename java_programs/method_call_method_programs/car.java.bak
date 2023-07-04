@@ -1,0 +1,20 @@
+class Car 
+{
+	public void ChangeGear()
+	{
+		System.out.println("Changed Gear to : ");
+		move();
+	}
+	public static void move()
+	{
+		System.out.println("move starts...");
+		System.out.println("move ends...");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Main starts...");
+		Car car = new Car();
+		car.ChangeGear();
+		System.out.println("Main Ends...");
+	}
+}

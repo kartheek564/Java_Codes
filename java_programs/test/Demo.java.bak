@@ -1,0 +1,5 @@
+interface car 
+{
+	int var=10;
+	public void createCar();
+}
